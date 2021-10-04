@@ -1,0 +1,11 @@
+백준에서 자바스크립트를 이용해 문제를 푸는 방법
+
+언어 선택 - Node.js
+
+모듈 추가하기
+```
+const fs = require("fs");
+
+const input = fs.readFileSync("/dev/stdin").toString().split(' ');
+```
+<!-- 문자열로 받아온 데이터를 ' '공백을 기준으로 나누어서 input에 배열로 저장하는 코드 -->
