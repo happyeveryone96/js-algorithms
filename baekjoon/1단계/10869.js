@@ -6,4 +6,4 @@ console.log(a+b);
 console.log(a-b);
 console.log(a*b);
 console.log(parseInt(a/b)); // 몫
-console.log(a%b); // 
+console.log(a%b); // 나머지
