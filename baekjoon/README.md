@@ -7,6 +7,6 @@
 const fs = require("fs");
 
 const input = fs.readFileSync("/dev/stdin").toString().split(' ');
-const input = fs.readFileSync("/dev/stdin").toString().split('\n');
+// 또는 const input = fs.readFileSync("/dev/stdin").toString().split('\n');
 ```
 문자열로 받아온 데이터를 공백(' ') 또는 줄바꿈('\n')을 기준으로 나누어서 input에 배열로 저장하는 코드
