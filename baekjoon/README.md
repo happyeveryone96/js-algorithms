@@ -7,5 +7,5 @@
 const fs = require("fs");
 
 const input = fs.readFileSync("/dev/stdin").toString().split(' ');
-// 문자열로 받아온 데이터를 ' '공백을 기준으로 나누어서 input에 배열로 저장하는 코드
 ```
+문자열로 받아온 데이터를 ' '공백을 기준으로 나누어서 input에 배열로 저장하는 코드
