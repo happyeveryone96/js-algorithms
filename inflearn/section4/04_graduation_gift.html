@@ -9,8 +9,10 @@
                 let answer=0;
                 let n=product.length;
                 product.sort((a, b)=>(a[0]+a[1])-(b[0]+b[1]));
+                // 상품 가격 + 배송비 오름차순으로 정렬
                 for(let i=0; i<n; i++){
                     let money=m-(product[i][0]/2+product[i][1]);
+                    // 할인된 상품을 사고 남은 예산
                     let cnt=1;
                     for(let j=0; j<n; j++){
                         if(j!==i && (product[j][0]+product[j][1])>money) break;
