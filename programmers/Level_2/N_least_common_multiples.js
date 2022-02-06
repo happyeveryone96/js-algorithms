@@ -4,7 +4,7 @@ function solution(arr) {
     let lcm = 1;
 
     while (true) {
-      if ((lcm % num1 == 0) && (lcm % num2 == 0)) {
+      if ((lcm % num1 === 0) && (lcm % num2 === 0)) {
         break;
       }
       lcm++;
