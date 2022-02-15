@@ -13,7 +13,7 @@ if (firstNum === secondNum && secondNum === thirdNum) {
     console.log(1000 + firstNum * 100);
 } else if (secondNum === thirdNum && firstNum !== thirdNum) {
     console.log(1000 + secondNum * 100);
-} else if (firstNum !== secondNum && secondNum !== thirdNum) {
+} else if (firstNum !== secondNum && secondNum !== thirdNum && firstNum !== thirdNum) {
     const arr = [firstNum, secondNum, thirdNum];
     const sortedArr = arr.sort((a,b) => a - b);
     console.log(sortedArr[2] * 100);
