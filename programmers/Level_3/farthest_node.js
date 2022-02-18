@@ -9,7 +9,7 @@ function solution(n, edge) {
       graph[src].push(dest);
       graph[dest].push(src);
   }
-  const distance = Array(n + 1).fill(0);
+  const distance = Array(n+1).fill(0);
   distance[1] = 1;
   // BFS
   const queue = [1];
@@ -54,7 +54,7 @@ function solution(n, edge) {
       graph[src].push(dest);
       graph[dest].push(src);
   }
-  const distance = Array(n + 1).fill(0);
+  const distance = Array(n+1).fill(0);
   distance[1] = 1;
   
   // BFS
