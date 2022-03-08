@@ -12,7 +12,7 @@ const index = result.indexOf(max);
 let isSame = false;
 
 for (let j = 0; j < 26; j++) {
-  if (result[j] === max && index != j) {
+  if (result[j] === max && index !== j) {
     isSame = true;
     break;
   }
